@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
 
         WebView adsDisplay = (WebView) findViewById(R.id.webView);
         adsDisplay.getSettings().setJavaScriptEnabled(true);
-        adsDisplay.loadUrl("http://fotodenuncias.net/adsense/adsense.php");
+        adsDisplay.loadUrl("http://url.com/adsense");
         adsDisplay.setScrollbarFadingEnabled(true);
 
         ImageView culo = (ImageView) findViewById(R.id.imageView);
